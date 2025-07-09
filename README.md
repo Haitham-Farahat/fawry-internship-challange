@@ -35,19 +35,16 @@ Design a console-based e-commerce system with the following features:
         - 🚚 **Shipping Fees**
         - 💰 **Total Paid**
         - 💳 **Customer Balance After Payment**
-      - Calls `ShippingService` for all shippable items, using an interface with:
-        ```java
-        String getName();
-        double getWeight();
-        ```
+  ## 🖼️ Sample Console Output
 
----
+> Below is a live preview of the application running in the console.  
+> The output shows a customer adding products to their cart and performing a successful checkout, including subtotal, shipping fees, total amount paid, and updated balance.
 
-## 🧪 Example Usage
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2d95dc32-a4eb-48e5-bee9-5a2fbee08510" 
+       alt="Console Output" 
+       style="width:80%; border-radius:10px; box-shadow:0px 4px 12px rgba(0, 0, 0, 0.1);">
+</div>
 
-```java
-cart.add(cheese, 2);
-cart.add(tv, 3);
-cart.add(scratchCard, 1);
 
-checkout(customer, cart);
+
